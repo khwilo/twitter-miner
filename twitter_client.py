@@ -5,10 +5,10 @@ from tweepy import OAuthHandler
 # Authorise our app to use Twitter.
 # Consumer key and secret authenticate requests to Twitter platform.
 # Access token is used to make API requests on your own account's behalf.
-consumer_key    = '8GPTRMG6uPINXpze1ZEybc3Rm'
-consumer_secret = 'h7bmj45qtxywjV23enwKrXB18D46cec6Wcncu6zxajgWM8OeIZ'
-access_token    = '525359502-Slia9aBQwQdijrq2iNPEORDoNiUBEuyV1No0I6Wh'
-access_secret   = '3p3sPcmeQ5a0VJ9tgSxpeBhg65h06RqYDnQbCz7b0h3fD'
+consumer_key    = 'CONSUMER_KEY'
+consumer_secret = 'CONSUMER_SECRET'
+access_token    = 'ACCESS_TOKEN'
+access_secret   = 'ACCESS_SECRET'
 
 # Create an OAuthHandler instance
 auth = OAuthHandler(consumer_key, consumer_secret)
